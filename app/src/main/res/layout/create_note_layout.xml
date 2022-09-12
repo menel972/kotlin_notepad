@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".manageNote.presentation.activities.CreateNoteActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/createNoteToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            app:menu="@menu/new_note_menu"
+            app:title="Notes" />
+
+        <EditText
+            android:id="@+id/createNoteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/createNoteToolbar"
+            android:hint="Title" />
+
+        <EditText
+            android:id="@+id/createNoteText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/createNoteTitle"
+            android:gravity="start"
+            android:hint="Text" />
+
+
+    </RelativeLayout>
+</layout>

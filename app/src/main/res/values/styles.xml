@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TextSize-->
+    <style name="h1">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="h2">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="h3">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="p">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!--TextColor-->
+    <style name="textWhite">
+        <item name="android:textColor">@color/titleColor</item>
+    </style>
+
+    <style name="textGrey">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <!--TextTruncate-->
+    <style name="textTruncate">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!--h1-->
+
+    <style name="h1.textWhite">
+        <item name="android:textColor">@color/titleColor</item>
+    </style>
+
+    <style name="h1.textGrey">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="h1.textWhite.textTruncate">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="h1.textGrey.textTruncate">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!--h2-->
+    <style name="h2.textWhite">
+        <item name="android:textColor">@color/titleColor</item>
+    </style>
+
+    <style name="h2.textWhite.textTruncate">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="h2.textGrey">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="h2.textGrey.textTruncate">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!--h3-->
+    <style name="h3.textWhite">
+        <item name="android:textColor">@color/titleColor</item>
+    </style>
+
+    <style name="h3.textWhite.textTruncate">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="h3.textGrey">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="h3.textGrey.textTruncate">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!--p-->
+    <style name="p.textWhite">
+        <item name="android:textColor">@color/titleColor</item>
+    </style>
+
+    <style name="p.textWhite.textTruncate">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="p.textGrey">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="p.textGrey.textTruncate">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+
+</resources>

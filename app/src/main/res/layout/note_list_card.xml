@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/noteListCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/noteListTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Title" />
+
+            <TextView
+                android:id="@+id/noteListDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/noteListTitle"
+                android:layout_marginEnd="10dp"
+                tools:text="09/08/1996" />
+
+            <TextView
+                android:id="@+id/noteListText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/noteListDate"
+                android:layout_toEndOf="@id/noteListDate"
+                android:ellipsize="end"
+                android:maxLines="1"
+                tools:text="Everyone just loves the flavor of turkey smoothie jumbled with butter." />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

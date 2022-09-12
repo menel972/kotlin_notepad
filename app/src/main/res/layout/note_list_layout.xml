@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="fr.grdn.notepad.manageNote.presentation.viewmodels.NoteListViewModel" />
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".manageNote.presentation.activities.NoteListActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/noteListToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/noteListRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/noteListToolbar"
+            tools:listitem="@layout/note_list_card" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/noteListBottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            app:labelVisibilityMode="unlabeled"
+            app:menu="@menu/note_list_btm_menu" />
+    </RelativeLayout>
+
+</layout>

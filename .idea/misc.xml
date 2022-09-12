@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/baseline_arrow_back_ios_24.xml" value="0.168" />
+        <entry key="app/src/main/res/drawable/baseline_auto_delete_24.xml" value="0.1485" />
+        <entry key="app/src/main/res/drawable/baseline_check_36.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/baseline_note_alt_24.xml" value="0.278" />
+        <entry key="app/src/main/res/drawable/outline_note_alt_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/round_linear_scale_20.xml" value="0.387" />
+        <entry key="app/src/main/res/layout-v23/note_list_activity.xml" value="0.5590551181102362" />
+        <entry key="app/src/main/res/layout/activity_new_note.xml" value="0.4046875" />
+        <entry key="app/src/main/res/layout/activity_note_details.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/create_note_layout.xml" value="0.406570841889117" />
+        <entry key="app/src/main/res/layout/details_note_layout.xml" value="0.434375" />
+        <entry key="app/src/main/res/layout/note_card.xml" value="0.54375" />
+        <entry key="app/src/main/res/layout/note_list_activity.xml" value="0.3067708333333333" />
+        <entry key="app/src/main/res/layout/note_list_card.xml" value="0.4211409395973154" />
+        <entry key="app/src/main/res/layout/note_list_layout.xml" value="0.406570841889117" />
+        <entry key="app/src/main/res/menu-v26/all_notes_menu.xml" value="0.2861111111111111" />
+        <entry key="app/src/main/res/menu/all_notes_menu.xml" value="0.33" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.37916666666666665" />
+        <entry key="app/src/main/res/menu/details_notes_menu.xml" value="0.32314814814814813" />
+        <entry key="app/src/main/res/menu/new_note_menu.xml" value="0.42291666666666666" />
+        <entry key="app/src/main/res/menu/note_list_btm_menu.xml" value="0.5630208333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

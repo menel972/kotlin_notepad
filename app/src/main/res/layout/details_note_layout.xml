@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="fr.grdn.notepad.manageNote.presentation.viewmodels.DetailsNoteViewModel" />
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".manageNote.presentation.activities.DetailsNoteActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/detailsNoteToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            app:menu="@menu/details_notes_menu"
+            app:title="Notes" />
+
+        <EditText
+            android:id="@+id/detailsNoteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detailsNoteToolbar"
+            android:autofillHints="Title"
+            android:inputType="text"
+            android:text="@{viewModel.getSelectedNote().title}" />
+
+        <EditText
+            android:id="@+id/detailsNoteText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/detailsNoteTitle"
+            android:autofillHints="Text"
+            android:gravity="start"
+            android:inputType="text"
+            android:text="@{viewModel.getSelectedNote().texte}" />
+
+    </RelativeLayout>
+</layout>
